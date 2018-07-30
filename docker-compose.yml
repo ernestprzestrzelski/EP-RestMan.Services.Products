@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ep-restman.services.products:
+    image: ${DOCKER_REGISTRY}eprestmanservicesproducts
+    build:
+      context: .
+      dockerfile: EP-RestMan.Services.Products\Dockerfile
